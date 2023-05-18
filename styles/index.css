@@ -5,6 +5,9 @@ body{
 .demoHeaders {
     margin-top: 2em;
 }
+.fakewindowcontain .ui-widget-overlay {
+    position: absolute;
+}
 #dialog-link {
     padding: .4em 1em .4em 20px;
     text-decoration: none;
@@ -32,9 +35,6 @@ body{
 #icons span.ui-icon {
     float: left;
     margin: 0 4px;
-}
-.fakewindowcontain .ui-widget-overlay {
-    position: absolute;
 }
 select {
     width: 200px;
